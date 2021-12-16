@@ -180,7 +180,6 @@ function App() {
       return alert(`錯誤：留言不可為空白`);
     }
 
-    //TODO: catch err
     fetch(`${MESSAGE_API}`, {
       method: "POST",
       headers: {
@@ -212,7 +211,6 @@ function App() {
       });
   };
 
-  //TODO: catch err
   const handleDeleteMessage = (id) => {
     fetch(`${MESSAGE_API}/${id}`, {
       method: "DELETE",
@@ -220,7 +218,12 @@ function App() {
         "content-type": "application/json",
       },
     })
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(res);
+        }
+        return res.json();
+      })
       .then((data) => {
         console.log("Message Delete!");
         console.log("Resp Data:", data);

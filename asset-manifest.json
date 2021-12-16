@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Lidemy-react-board-example/static/js/main.61f5d5c1.chunk.js",
+    "main.js.map": "/Lidemy-react-board-example/static/js/main.61f5d5c1.chunk.js.map",
+    "runtime-main.js": "/Lidemy-react-board-example/static/js/runtime-main.b22ce026.js",
+    "runtime-main.js.map": "/Lidemy-react-board-example/static/js/runtime-main.b22ce026.js.map",
+    "static/js/2.712c9c8a.chunk.js": "/Lidemy-react-board-example/static/js/2.712c9c8a.chunk.js",
+    "static/js/2.712c9c8a.chunk.js.map": "/Lidemy-react-board-example/static/js/2.712c9c8a.chunk.js.map",
+    "index.html": "/Lidemy-react-board-example/index.html",
+    "static/js/2.712c9c8a.chunk.js.LICENSE.txt": "/Lidemy-react-board-example/static/js/2.712c9c8a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b22ce026.js",
+    "static/js/2.712c9c8a.chunk.js",
+    "static/js/main.61f5d5c1.chunk.js"
+  ]
+}
